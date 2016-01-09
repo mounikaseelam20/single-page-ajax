@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.box:empty {
+    background-color: pink;
+}
+
+.box:first-child {
+    margin-top: 80px;
+}

@@ -1,0 +1,12 @@
+.text {
+   
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.column{
+	margin-top:50px;
+	width:auto;
+	height:500px;
+	overflow:auto;
+}

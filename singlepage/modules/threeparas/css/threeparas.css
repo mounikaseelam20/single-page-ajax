@@ -1,0 +1,8 @@
+.para {
+    margin: 50px 90px 200px 20px;
+}
+
+.para p:first-child,
+.para p:last-child {
+    color: red
+}

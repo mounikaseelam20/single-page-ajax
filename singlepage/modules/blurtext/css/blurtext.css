@@ -1,0 +1,12 @@
+.blur {
+    -webkit-filter: blur(2px);
+    margin: auto;
+    font-size: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .blur {
+        font-size: 50px;
+    }
+}

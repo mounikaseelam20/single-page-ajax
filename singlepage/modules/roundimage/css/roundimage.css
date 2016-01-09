@@ -1,0 +1,8 @@
+.roundimage {
+    margin: auto;
+    margin-top:50px;
+    width: 140px;
+    height: 140px;
+    background-image: url("../image/j2.jpg");
+    border-radius: 70px;
+}

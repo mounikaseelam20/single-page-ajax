@@ -1,0 +1,25 @@
+ .mixedbox {
+    width: 120px;
+    height: 120px;
+    background: SkyBlue;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top:40px;
+    z-index: -1;
+}
+
+.mixedbox:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid SkyBlue;
+    z-index: -1;
+    border-bottom: 13px solid transparent;
+}

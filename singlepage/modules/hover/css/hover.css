@@ -1,0 +1,12 @@
+.image {
+    margin: auto;
+    margin-top: 40px;
+    width: 200px;
+    height: 180px;
+    background-image: url('../image/j1.jpg');
+    cursor: pointer;
+}
+
+.image:hover {
+    background-image: url('../image/j2.jpg');
+}
